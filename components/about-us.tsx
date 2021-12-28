@@ -16,12 +16,14 @@ class AboutUs extends React.Component {
         return (
             <div className="section-container about-us"> 
                 <div className="introduction"></div>
-                <h2>Tech I know</h2>
+                <h2>Technologies I know</h2>
                 <ul>
-                    <li> ReactJs, Vuejs, Emberjs, Stenciljs</li>
+                    <li> React/Nextjs, Vuejs, Emberjs</li>
+                    <li> Nodejs (Nestjs, expressjs) </li>
+                    <li> Stencil.js (Web Components) </li>
                     <li> SCSS/CSS, LESS/CSS, Bootstrap, ElementUI</li>
-                    <li> NextJs, Hugo Js, NuxtJs</li>
                     <li> Git, Gulp, npm/yarn</li>
+                    <li> Docker </li>
                     <li><b>Tools:</b> VScode/Atom code editor, Adobe XD/Figma</li>
                 </ul>
 
