@@ -18,7 +18,8 @@ class Footer extends React.Component {
                         <LinkedinLogo />
                     </a>
                 </div>
-                <div className="powered"> © Sathishkumar Thangavel. Powered by <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Nextjs</a></div>
+                <div className="powered"> © Sathishkumar Thangavel. Powered by <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Nextjs</a>.</div>
+                <div className="powered"><i> Deployed using <a href="https://kubernetes.io/" target="_blank" rel="noopener noreferrer">Kubernetes</a> technology.</i></div>
             </div>
         )
     }
