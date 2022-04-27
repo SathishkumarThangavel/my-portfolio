@@ -15,6 +15,7 @@ class Header extends React.Component {
                     />
                     <h2 className="profile-name">Sathishkumar Thangavel</h2>
                     <h3>Full Stack Developer</h3>
+                    <h3><a href="https://www.credly.com/badges/c208bf0a-684e-423d-b4f5-4cc6b2e2e15a/public_url" target="_blank" rel="noopener noreferrer">Certified Kubernetes Application Developer</a></h3>
                     <h3><a href="https://iqzsystems.com" target="_blank" rel="noopener noreferrer">IQZ Systems</a></h3>
                     </div>
                 </div>
