@@ -69,8 +69,9 @@ class AboutUs extends React.Component {
                         Coimbatore, India - ( July 2021 - Present)
                     </div>
                     <div className="project">
-                        <h3>New begining - Full Stack Developer</h3>
-                        <p>Started New Learnings and exploring technologies</p>
+                        <h3>Full Stack Developer</h3>
+                        <p>Being a part of creating company website from scratch, added best code practices, code revamps and built many pages</p>
+                        <p>Developed a product from scratch, collaborated with team mates/UI UX designers, code quality checks, setting up CI/CD pipelines and deployed using kubernetes technology</p>
                     </div>
                 </div>
                 <hr/>
