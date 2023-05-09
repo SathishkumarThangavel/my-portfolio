@@ -66,7 +66,7 @@ class AboutUs extends React.Component {
                         </a>
                     </div>
                     <div className="period">
-                        Coimbatore, India - ( July 2021 - Present)
+                        Coimbatore, India - ( July 2021 - Dec 2022 )
                     </div>
                     <div className="project">
                         <h3>Full Stack Developer</h3>
