@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import ToastIcon from "../svgs/toast.svg";
 import SliderIcon from "../svgs/slider.svg";
 import OpenlinkIcon from "../svgs/openlink.svg";
+import SpiraIcon from "../svgs/spiragraphy.svg";
 
 class AboutUs extends React.Component {
     constructor(props: any) {
@@ -18,13 +18,13 @@ class AboutUs extends React.Component {
                 <div className="introduction"></div>
                 <h2>Technologies I know</h2>
                 <ul>
-                    <li> React/Nextjs, Vuejs, Emberjs</li>
-                    <li> Nodejs (Nestjs, expressjs) </li>
-                    <li> Stencil.js (Web Components) </li>
-                    <li> SCSS/CSS, LESS/CSS, Bootstrap, ElementUI</li>
+                    <li> React / Nextjs, Vuejs</li>
+                    <li> Nodejs / Nestjs, Java </li>
+                    <li> Stencil.js (Web Components), Three.js, HTML Canvas </li>
+                    <li> Sass, Bulma, Tailwind </li>
                     <li> Git, Gulp, npm/yarn</li>
-                    <li> Docker </li>
-                    <li><b>Tools:</b> VScode/Atom code editor, Adobe XD/Figma</li>
+                    <li> Docker, Kubernetes </li>
+                    <li><b>Tools:</b> Figma</li>
                 </ul>
 
                 <div id="personal-projects">
@@ -34,6 +34,13 @@ class AboutUs extends React.Component {
                         <div>
                             <h3>Toast Web Component</h3>
                             <p>Easy-to-use toast component built on stenciljs with web components concept.</p>
+                        </div>
+                    </section>
+                    <section onClick={() => this.openWindow('https://spirography.vercel.app/')}>
+                        <SpiraIcon />
+                        <div>
+                            <h3>Spirograph generator</h3>
+                            <p>A fun project to generate Spirograph in different color.</p>
                         </div>
                     </section>
                     <section onClick={() => this.openWindow('https://www.npmjs.com/package/ember-simple-range-slider')}>
